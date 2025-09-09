@@ -11,4 +11,10 @@ Prodigy:
 https://github.com/haddocking/prodigy
 reference: Xue L, Rodrigues J, Kastritis P, Bonvin A.M.J.J, Vangone A.: PRODIGY: a web server for predicting the binding affinity of protein-protein complexes. Bioinformatics (2016) (10.1093/bioinformatics/btw514)
 
+At .env file, have your ZDock create_pl_path and output_dir ready.
+
+export PATH=~/anaconda3/bin:$PATH
+python -m venv docking
+source docking/bin/activate
+pip install prodigy-prot python-dotenv
 
